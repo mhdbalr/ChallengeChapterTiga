@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homePageFragment_to_halaman2Fragment"
             app:destination="@id/halaman2Fragment" />
+        <argument
+            android:name="data"
+            app:argType="string"/>
     </fragment>
     <fragment
         android:id="@+id/halaman2Fragment"
